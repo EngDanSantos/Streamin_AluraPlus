@@ -96,3 +96,9 @@ body {
 .container__descricao{
     padding: 2em;
 }
+
+.dispositivos{
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
