@@ -7,7 +7,8 @@
 }
 
 body {
-    background-color: var(--cor-de-fundo);
+ 
+    background: linear-gradient(180deg, var(--cor-de-fundo) 20%, rgba(42,42,96,1) 46%, rgba(6,93,110,1) 100%);
     color: var(--branco-principal);
     font-family: var(--fonte-principal);
     font-size: 16px;
@@ -97,8 +98,42 @@ body {
     padding: 2em;
 }
 
-.dispositivos{
-    flex-direction: column;
-    align-items: center;
+.dispositivos__lista{
+    display: flex;
+    justify-content: center;
     text-align: center;
+    list-style-type: none;
+    margin: 5em 0;
+}
+
+.dispositivos{
+    text-align: center;
+}
+
+.dispositivos__titulo{
+    font-size: 48px;
+    color: var(--branco-principal);
+}
+
+.lista__item{
+    font-size: 32px;
+    color: var(--branco-principal);
+}
+
+.rodape{
+    display: grid;
+    grid-template-columns: auto;
+    text-align: center;
+    
+}
+
+.lista__link{
+    text-decoration: none;
+    list-style-type: none;
+    color: var(--branco-principal);
+}
+
+.rodape__logo{
+    text-align: center;
+    align-items: center;
 }
