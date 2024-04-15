@@ -28,7 +28,7 @@ body{
 }
 
 .container{
-    height: 130vh;
+    height: 100vh;
     display: grid;
     grid-template-columns: 50% 50%;
 }
@@ -181,7 +181,7 @@ body{
 
     .secundario__imagem{
         width: 50vw;
-        padding-top: 1.5em;
+        
     }
 
     .dispositivos__lista{
